@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giantess Ashmeraz</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styles for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background: #333;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #222;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background: url('hero-video-bg.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+        .hero h1 {
+            padding-top: 150px;
+            font-size: 48px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #e63946;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video-grid .video-item {
+            width: calc(33.333% - 20px);
+            background: #444;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        .video-grid .video-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .video-grid .video-item button {
+            margin-top: 10px;
+            padding: 10px;
+            background: #e63946;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        .faq, .blog, .buy-videos, .custom-request {
+            margin-top: 50px;
+        }
+        .faq h2, .blog h2, .buy-videos h2, .custom-request h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .faq div, .blog div, .buy-videos div, .custom-request form {
+            background: #444;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .faq div {
+            margin-bottom: 10px;
+        }
+        .blog div {
+            margin-bottom: 10px;
+        }
+        .buy-videos div {
+            margin-bottom: 10px;
+        }
+        .custom-request form {
+            display: flex;
+            flex-direction: column;
+        }
+        .custom-request form input, .custom-request form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .custom-request form button {
+            padding: 10px;
+            background: #e63946;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        .footer {
+            background: #222;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #e63946;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Giantess Ashmeraz</div>
+        <nav>
+            <a href="#video-previews">Video Previews</a>
+            <a href="#faq">FAQ</a>
+            <a href="#blog">Blog</a>
+            <a href="#custom-request">Custom Requests</a>
+            <a href="#buy-videos">Buy Videos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Experience the Ultimate in City Destruction!</h1>
+        <button>Explore Our Videos</button>
+    </section>
+
+    <section id="video-previews" class="section video-grid">
+        <h2>Video Previews</h2>
+        <div class="video-item">
+            <img src="video1-thumbnail.jpg" alt="Video 1">
+            <button>Watch Now</button>
+        </div>
+        <div class="video-item">
+            <img src="video2-thumbnail.jpg" alt="Video 2">
+            <button>Watch Now</button>
+        </div>
+        <!-- Add more video items as needed -->
+    </section>
+
+    <section id="custom-request" class="section custom-request">
+        <h2>Custom Request Form</h2>
+        <form action="submit-request.php" method="post">
+            <input type="text" name="title" placeholder="Title" required>
+            <textarea name="description" placeholder="Description" rows="5" required></textarea>
+            <input type="text" name="budget" placeholder="Budget">
+            <input type="text" name="contact" placeholder="Your Contact Info" required>
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+
+    <section id="faq" class="section faq">
+        <h2>FAQ</h2>
+        <div>
+            <h3>What is Giantess Ashmeraz?</h3>
+            <p>Giantess Ashmeraz specializes in custom giantess content and city destruction videos.</p>
+        </div>
+        <div>
+            <h3>How can I request custom content?</h3>
+            <p>Use the custom request form above to submit your ideas and specifications.</p>
+        </div>
+        <!-- Add more FAQ items as needed -->
+    </section>
+
+    <section id="blog" class="section blog">
+        <h2>Blog</h2>
+        <div>
+            <h3>Latest Post Title</h3>
+            <p>Summary of the latest blog post...</p>
+        </div>
+        <!-- Add more blog posts as needed -->
+    </section>
+
+    <section id="buy-videos" class="section buy-videos">
+        <h2>Buy Videos</h2>
+        <div>
+            <h3>Video Title</h3>
+            <p>Description of the video</p>
+            <button>Buy Now</button>
+        </div>
+        <!-- Add more videos for sale as needed -->
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Giantess Ashmeraz. All rights reserved.</p>
+        <p>Follow us on <a href="#">Social Media</a></p>
+        <p><a href="#contact">Contact</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
